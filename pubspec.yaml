@@ -1,0 +1,64 @@
+name: assignment_flutter_intern
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  url_launcher: ^5.7.10
+  get_it: ^5.0.4
+  flutter_phone_direct_caller: ^1.0.1
+  image_picker: ^0.6.7+21
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - images/m1.png
+    - images/m2.jpg
+    - images/m3.png
+    - images/m4.jpg
+    - images/m5.png
+    - images/m6.png
+    - images/m7.png
+    - images/aaaaaaa.png
+    - images/im.png
+    - images/skype.png
+    - images/gmail.png
+    - images/cam.png
+    - images/ca.png
+    - images/p.png
+
+
+  fonts:
+    - family: Playfair_Display
+      fonts:
+        - asset: fonts/PlayfairDisplay-Bold.ttf
+          weight: 700
+        - asset: fonts/PlayfairDisplay-ExtraBold.ttf
+          weight: 700
+
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: fonts/Roboto-bold.ttf
+          weight: 700
+
+    - family: PT_Sans
+      fonts:
+        - asset: fonts/PTSans-Regular.ttf
+          weight: 400
+
+    - family: Libre_Baskerville
+      fonts:
+        - asset: fonts/LibreBaskerville-Bold.ttf
+          weight: 700
+
+
